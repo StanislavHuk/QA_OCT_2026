@@ -1,24 +1,24 @@
-package org.prog.Demo;
-
-public class TODO0911 {
-    public static void main(String[] args) {
-        String[] emails = {
-                "john@mail.com",
-                "jo@gmail.com",
-                "peter@localhost",
-                "alex.smith@company.net",
-                "max@b@c.com",
-                "bob@a.io",
-                "anna@x.y.z",
-                ".sara@mail.com",
-                "kate.mail.com",
-                "lee@ab.cd",
-                "john.doe@server",
-                "tom@mail.com.",
-                "ann@site.org",
-                "@mail.com",
-                "first.last@my-server.com"
-        };
+//package org.prog.Demo;
+//
+//public class TODO0911 {
+//    public static void main(String[] args) {
+//        String[] emails = {
+//                "john@mail.com",
+//                "jo@gmail.com",
+//                "peter@localhost",
+//                "alex.smith@company.net",
+//                "max@b@c.com",
+//                "bob@a.io",
+//                "anna@x.y.z",
+//                ".sara@mail.com",
+//                "kate.mail.com",
+//                "lee@ab.cd",
+//                "john.doe@server",
+//                "tom@mail.com.",
+//                "ann@site.org",
+//                "@mail.com",
+//                "first.last@my-server.com"
+//        };
 ///   1. В email должен быть ровно один символ @ - применили методы indexOf и lastIndexOf
 ///   + чтобы можна было проверить весь массив добавили for.
 //        for (int i = 0; i < emails.length; i++) {
