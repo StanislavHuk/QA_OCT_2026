@@ -1,14 +1,14 @@
-package org.prog.demo;
+package org.prog.Demo;
 
 public class Main {
     public static void main(String[] args) {
-        // Создали Самолет
-        Plane plane = new Plane();
-        // Присвоили все значения переменным из класса Plane
-        plane.flightId = "AA-1808";
-        plane.maxSeats = 130;
-        plane.takenSeats = 90;
-
-        plane.printInfo();
+        Android android = new Android();
+        Apple apple = new Apple();
+        unlockAndCall(android);
+        unlockAndCall(apple);
+    }
+    public static void unlockAndCall(IPhone phone) {
+        phone.unlock();
+        phone.call();
     }
 }
