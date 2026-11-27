@@ -17,8 +17,10 @@ public class Main {
 
        apple.color = "blue";
        apple.model = "Apple 17 pro";
+
        System.out.println("================================");
 
+//Сравнение Android и Apple по model и color методами equals и hashCode
        System.out.println(android1.color.equals(apple.color));
        System.out.println(android1.model.equals(apple.model));
        System.out.println(android1.hashCode());
@@ -35,6 +37,7 @@ public class Main {
        System.out.println(android2.model.equals(apple.model));
        System.out.println(android2.hashCode());
        System.out.println(apple.hashCode());
+       System.out.println(android2.hashCode());
        System.out.println("================================");
     }
     public static void unlockAndCall(IPhone phone) {

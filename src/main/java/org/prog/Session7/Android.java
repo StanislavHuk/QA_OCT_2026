@@ -13,7 +13,7 @@ public class Android implements IPhone {
     public String color;
     public String model;
 
-    @Override
+@Override
     public boolean equals (Object obj) {
         if (obj instanceof Android) {
             Android android = (Android) obj;

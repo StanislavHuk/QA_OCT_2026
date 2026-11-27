@@ -9,7 +9,6 @@ public class Apple implements IPhone {
     public void call() {
         System.out.println("call");
     }
-
     public String color;
     public String model;
 
